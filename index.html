@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDL Times - News Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>BDL Times</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/politics.html">Politics</a></li>
+                    <li><a href="pages/tech.html">Tech</a></li>
+                    <li><a href="pages/sports.html">Sports</a></li>
+                    <li><a href="pages/entertainment.html">Entertainment</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="pages/login.html" class="btn">Login</a>
+                <a href="pages/register.html" class="btn btn-primary">Register</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Latest Breaking News</h2>
+            <p>Stay informed with the latest news and updates from around the world.</p>
+            <a href="pages/all-news.html" class="btn btn-primary">View All News</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="featured-news">
+            <h2>Top Stories</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="img/placeholder.jpg" alt="News Image">
+                    <div class="news-content">
+                        <span class="category">Politics</span>
+                        <h3>Major Policy Changes Announced</h3>
+                        <p>The government has announced significant changes to key policies affecting...</p>
+                        <a href="pages/article.html?id=1" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/placeholder.jpg" alt="News Image">
+                    <div class="news-content">
+                        <span class="category">Tech</span>
+                        <h3>New Technology Breakthrough</h3>
+                        <p>Scientists have made a breakthrough in quantum computing technology...</p>
+                        <a href="pages/article.html?id=2" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="img/placeholder.jpg" alt="News Image">
+                    <div class="news-content">
+                        <span class="category">Sports</span>
+                        <h3>Championship Finals Results</h3>
+                        <p>The finals ended with a surprising upset as the underdog team claimed victory...</p>
+                        <a href="pages/article.html?id=3" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-categories">
+            <h2>News Categories</h2>
+            <div class="category-grid">
+                <a href="pages/politics.html" class="category-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Politics</h3>
+                </a>
+                <a href="pages/tech.html" class="category-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>Technology</h3>
+                </a>
+                <a href="pages/sports.html" class="category-card">
+                    <i class="fas fa-basketball-ball"></i>
+                    <h3>Sports</h3>
+                </a>
+                <a href="pages/entertainment.html" class="category-card">
+                    <i class="fas fa-film"></i>
+                    <h3>Entertainment</h3>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>BDL Times</h3>
+                <p>Your trusted source for the latest news and information from around the world.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="pages/about.html">About Us</a></li>
+                    <li><a href="pages/contact.html">Contact Us</a></li>
+                    <li><a href="pages/privacy.html">Privacy Policy</a></li>
+                    <li><a href="pages/terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BDL Times. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

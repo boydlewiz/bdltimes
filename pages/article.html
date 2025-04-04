@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - BDL Times</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><a href="../index.html">BDL Times</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons" id="auth-buttons">
+                <a href="login.html" class="btn">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+            <div class="user-menu" id="user-menu" style="display: none;">
+                <div class="user-avatar">
+                    <img src="../img/placeholder-user.jpg" alt="User">
+                    <span id="user-name">User</span>
+                </div>
+                <div class="dropdown-menu">
+                    <a href="profile.html">My Profile</a>
+                    <a href="saved-articles.html">Saved Articles</a>
+                    <a href="#" id="logout-button">Logout</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="article-container">
+        <article id="article-content">
+            <div class="article-header">
+                <div class="article-category" id="article-category">Politics</div>
+                <h1 id="article-title">Major Policy Changes Announced</h1>
+                <div class="article-meta">
+                    <span id="article-date">April 3, 2024</span>
+                    <span class="divider">|</span>
+                    <span id="article-author">By John Smith</span>
+                </div>
+            </div>
+            
+            <div class="article-image">
+                <img src="../img/placeholder.jpg" alt="Article Image" id="article-image">
+            </div>
+            
+            <div class="article-body" id="article-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in nisi eu arcu feugiat dapibus ut in mauris. Ut facilisis suscipit eros, non tincidunt nulla ultricies ut. Nullam euismod libero ac ligula interdum, eu rutrum mauris eleifend. Praesent varius magna ac odio sollicitudin, vel eleifend libero bibendum.</p>
+                
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam tincidunt justo vel dui maximus, a faucibus eros feugiat. Donec ultrices diam vel orci consectetur, quis congue tellus consequat. Duis venenatis, tellus at efficitur interdum, nibh risus luctus ex, at commodo dui enim ut leo. Phasellus ut metus at nisl maximus tempus eget vitae justo.</p>
+                
+                <p>Cras sit amet sapien nulla. Ut ut dolor et arcu congue vulputate. Aenean ut posuere lacus. Morbi vitae fringilla ex. Aliquam eget felis dui. Morbi auctor ornare eros, ac scelerisque velit. Suspendisse nec cursus eros. Duis hendrerit imperdiet justo, id interdum orci vehicula et. Morbi eget tortor vitae nulla euismod interdum.</p>
+                
+                <blockquote>
+                    "The new policy changes are expected to have a significant impact on the economy and will reshape how industries operate for years to come."
+                </blockquote>
+                
+                <p>Praesent finibus lorem ut sapien scelerisque, nec imperdiet eros venenatis. Suspendisse pulvinar elit vitae leo dignissim, ac facilisis sem pretium. Donec eget risus vel neque vehicula scelerisque. Nullam non dolor felis. Integer augue neque, mattis quis iaculis ut, pharetra id nisl.</p>
+                
+                <h2>New Developments</h2>
+                
+                <p>Nullam elementum ligula vitae justo eleifend, in pharetra eros laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras sed lacus quis neque blandit cursus. Phasellus scelerisque nibh enim, ut hendrerit neque luctus id.</p>
+                
+                <p>Quisque feugiat tellus quam, at condimentum nunc facilisis sit amet. Mauris consectetur varius felis, eu porta sapien mattis in. Morbi consequat tellus non tempus vestibulum. Nam vestibulum, sapien ut lacinia consequat, enim risus tristique est, vitae ultricies massa tortor at eros. Proin in pellentesque enim, at volutpat magna.</p>
+            </div>
+        </article>
+        
+        <div class="article-actions">
+            <button class="btn btn-outline" id="save-article">
+                <i class="far fa-bookmark"></i> Save Article
+            </button>
+            <div class="share-buttons">
+                <span>Share:</span>
+                <a href="#" class="share-btn"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="share-btn"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="share-btn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="share-btn"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        
+        <section class="related-articles">
+            <h2>Related Articles</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="../img/placeholder.jpg" alt="News Image">
+                    <div class="news-content">
+                        <span class="category">Politics</span>
+                        <h3>Government Announces Budget Plan</h3>
+                        <p>The government has released its annual budget plan focusing on economic growth...</p>
+                        <a href="article.html?id=4" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="../img/placeholder.jpg" alt="News Image">
+                    <div class="news-content">
+                        <span class="category">Politics</span>
+                        <h3>Election Results Analysis</h3>
+                        <p>Experts analyze the recent election results and what they mean for the future...</p>
+                        <a href="article.html?id=5" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="comments-section">
+            <h2>Comments</h2>
+            <div id="comments-container">
+                <!-- Comments will be loaded here -->
+                <div class="comment">
+                    <div class="comment-header">
+                        <img src="../img/placeholder-user.jpg" alt="User">
+                        <div>
+                            <h4>Jane Doe</h4>
+                            <span class="comment-date">April 2, 2024</span>
+                        </div>
+                    </div>
+                    <div class="comment-body">
+                        <p>This is really informative! I had no idea these policy changes were coming.</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment-header">
+                        <img src="../img/placeholder-user.jpg" alt="User">
+                        <div>
+                            <h4>Bob Johnson</h4>
+                            <span class="comment-date">April 1, 2024</span>
+                        </div>
+                    </div>
+                    <div class="comment-body">
+                        <p>I wonder how these policies will affect small businesses in the long run.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="add-comment" id="add-comment-section">
+                <h3>Add a Comment</h3>
+                <form id="comment-form">
+                    <div class="form-group">
+                        <textarea id="comment-text" placeholder="Write your comment here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Post Comment</button>
+                </form>
+                <div class="login-prompt" id="login-prompt" style="display: none;">
+                    <p>Please <a href="login.html">login</a> or <a href="register.html">register</a> to post a comment.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>BDL Times</h3>
+                <p>Your trusted source for the latest news and information from around the world.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BDL Times. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="../js/firebase-config.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="../js/article.js"></script>
+</body>
+</html> 
